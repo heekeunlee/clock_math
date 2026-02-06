@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'M PLUS Rounded 1c';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/mplusrounded1c/v15/lJd4cWvK1JcM5F5y8d8e0y7zD3Q.woff2) format('woff2'); 
+  /* Fallback or valid google font URL import in index.html is better, but let's assume system font or add Google Font link later */
+}
+
+body {
+  background-color: #f0f9ff;
+  font-family: 'M PLUS Rounded 1c', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
